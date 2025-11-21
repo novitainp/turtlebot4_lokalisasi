@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/delivery_notifier/delivery_notifier.egg-info
+writing ../../build/delivery_notifier/delivery_notifier.egg-info/PKG-INFO
+writing dependency_links to ../../build/delivery_notifier/delivery_notifier.egg-info/dependency_links.txt
+writing requirements to ../../build/delivery_notifier/delivery_notifier.egg-info/requires.txt
+writing top-level names to ../../build/delivery_notifier/delivery_notifier.egg-info/top_level.txt
+writing manifest file '../../build/delivery_notifier/delivery_notifier.egg-info/SOURCES.txt'
+reading manifest file '../../build/delivery_notifier/delivery_notifier.egg-info/SOURCES.txt'
+writing manifest file '../../build/delivery_notifier/delivery_notifier.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/kelompok1/build/delivery_notifier/build
+creating /home/ubuntu/kelompok1/build/delivery_notifier/build/lib
+creating /home/ubuntu/kelompok1/build/delivery_notifier/build/lib/delivery_notifier
+copying delivery_notifier/setup.py -> /home/ubuntu/kelompok1/build/delivery_notifier/build/lib/delivery_notifier
+copying delivery_notifier/__init__.py -> /home/ubuntu/kelompok1/build/delivery_notifier/build/lib/delivery_notifier
+running install
+running install_lib
+creating /home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier
+copying /home/ubuntu/kelompok1/build/delivery_notifier/build/lib/delivery_notifier/setup.py -> /home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier
+copying /home/ubuntu/kelompok1/build/delivery_notifier/build/lib/delivery_notifier/__init__.py -> /home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier
+byte-compiling /home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier/setup.py to setup.cpython-312.pyc
+byte-compiling /home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ubuntu/kelompok1/install/delivery_notifier/share/ament_index
+creating /home/ubuntu/kelompok1/install/delivery_notifier/share/ament_index/resource_index
+creating /home/ubuntu/kelompok1/install/delivery_notifier/share/ament_index/resource_index/packages
+copying resource/delivery_notifier -> /home/ubuntu/kelompok1/install/delivery_notifier/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/kelompok1/install/delivery_notifier/share/delivery_notifier
+running install_egg_info
+Copying ../../build/delivery_notifier/delivery_notifier.egg-info to /home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/ubuntu/kelompok1/build/delivery_notifier/install.log'

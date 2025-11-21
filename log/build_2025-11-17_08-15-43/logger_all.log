@@ -1,0 +1,116 @@
+[0.587s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.587s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa17e1580>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa1a534a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa1a534a0>>)
+[0.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.812s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/kelompok1'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_notifier) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_notifier) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_notifier) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_notifier) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_notifier) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_notifier) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_notifier) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_notifier) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_notifier) by extension 'ros'
+[0.971s] DEBUG:colcon.colcon_core.package_identification:Package 'src/delivery_notifier' with type 'ros.ament_python' and name 'delivery_notifier'
+[0.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.064s] Level 5:colcon.colcon_core.verb:set package 'delivery_notifier' build argument 'cmake_args' from command line to 'None'
+[1.064s] Level 5:colcon.colcon_core.verb:set package 'delivery_notifier' build argument 'cmake_target' from command line to 'None'
+[1.064s] Level 5:colcon.colcon_core.verb:set package 'delivery_notifier' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.064s] Level 5:colcon.colcon_core.verb:set package 'delivery_notifier' build argument 'cmake_clean_cache' from command line to 'False'
+[1.065s] Level 5:colcon.colcon_core.verb:set package 'delivery_notifier' build argument 'cmake_clean_first' from command line to 'False'
+[1.065s] Level 5:colcon.colcon_core.verb:set package 'delivery_notifier' build argument 'cmake_force_configure' from command line to 'False'
+[1.065s] Level 5:colcon.colcon_core.verb:set package 'delivery_notifier' build argument 'ament_cmake_args' from command line to 'None'
+[1.065s] Level 5:colcon.colcon_core.verb:set package 'delivery_notifier' build argument 'catkin_cmake_args' from command line to 'None'
+[1.065s] Level 5:colcon.colcon_core.verb:set package 'delivery_notifier' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.065s] DEBUG:colcon.colcon_core.verb:Building package 'delivery_notifier' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/kelompok1/build/delivery_notifier', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/kelompok1/install/delivery_notifier', 'merge_install': False, 'path': '/home/ubuntu/kelompok1/src/delivery_notifier', 'symlink_install': False, 'test_result_base': None}
+[1.066s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.072s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/kelompok1/src/delivery_notifier' with build type 'ament_python'
+[1.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('delivery_notifier', 'ament_prefix_path')
+[1.085s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/kelompok1/install/delivery_notifier/share/delivery_notifier/hook/ament_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/kelompok1/install/delivery_notifier/share/delivery_notifier/hook/ament_prefix_path.sh'
+[1.091s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.288s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/kelompok1/src/delivery_notifier'
+[2.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/kelompok1/src/delivery_notifier': PYTHONPATH=/home/ubuntu/kelompok1/build/delivery_notifier/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/delivery_notifier build --build-base /home/ubuntu/kelompok1/build/delivery_notifier/build install --record /home/ubuntu/kelompok1/build/delivery_notifier/install.log --single-version-externally-managed install_data
+[8.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/kelompok1/src/delivery_notifier' returned '0': PYTHONPATH=/home/ubuntu/kelompok1/build/delivery_notifier/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/delivery_notifier build --build-base /home/ubuntu/kelompok1/build/delivery_notifier/build install --record /home/ubuntu/kelompok1/build/delivery_notifier/install.log --single-version-externally-managed install_data
+[8.979s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/kelompok1/install/delivery_notifier' for CMake module files
+[8.982s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/kelompok1/install/delivery_notifier' for CMake config files
+[8.986s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/kelompok1/install/delivery_notifier/lib'
+[8.987s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/kelompok1/install/delivery_notifier/bin'
+[8.987s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/kelompok1/install/delivery_notifier/lib/pkgconfig/delivery_notifier.pc'
+[8.989s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages'
+[8.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('delivery_notifier', 'pythonpath')
+[8.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/kelompok1/install/delivery_notifier/share/delivery_notifier/hook/pythonpath.dsv'
+[8.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/kelompok1/install/delivery_notifier/share/delivery_notifier/hook/pythonpath.sh'
+[8.996s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/kelompok1/install/delivery_notifier/bin'
+[8.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(delivery_notifier)
+[8.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/kelompok1/install/delivery_notifier/share/delivery_notifier/package.dsv'
+[8.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/kelompok1/install/delivery_notifier/share/delivery_notifier/package.sh'
+[9.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/kelompok1/install/delivery_notifier/share/delivery_notifier/package.bash'
+[9.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/kelompok1/install/delivery_notifier/share/delivery_notifier/package.zsh'
+[9.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/kelompok1/install/delivery_notifier/share/colcon-core/packages/delivery_notifier)
+[9.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.015s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.015s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.017s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.046s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.046s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.047s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.050s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[9.051s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/kelompok1/install/local_setup.sh'
+[9.054s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/kelompok1/install/_local_setup_util_sh.py'
+[9.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/kelompok1/install/setup.sh'
+[9.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/kelompok1/install/local_setup.bash'
+[9.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/kelompok1/install/setup.bash'
+[9.074s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/kelompok1/install/local_setup.zsh'
+[9.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/kelompok1/install/setup.zsh'

@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.004285] (delivery_notifier) JobQueued: {'identifier': 'delivery_notifier', 'dependencies': OrderedDict()}
+[0.004524] (uts) JobQueued: {'identifier': 'uts', 'dependencies': OrderedDict()}
+[0.004728] (delivery_notifier) JobStarted: {'identifier': 'delivery_notifier'}
+[0.069773] (uts) JobStarted: {'identifier': 'uts'}
+[0.100270] (-) TimerEvent: {}
+[0.201075] (-) TimerEvent: {}
+[0.306751] (-) TimerEvent: {}
+[0.408152] (-) TimerEvent: {}
+[0.511713] (-) TimerEvent: {}
+[0.612466] (-) TimerEvent: {}
+[0.713263] (-) TimerEvent: {}
+[0.814121] (-) TimerEvent: {}
+[0.915232] (-) TimerEvent: {}
+[1.016213] (-) TimerEvent: {}
+[1.119097] (-) TimerEvent: {}
+[1.224275] (-) TimerEvent: {}
+[1.326752] (-) TimerEvent: {}
+[1.428885] (-) TimerEvent: {}
+[1.531903] (-) TimerEvent: {}
+[1.634676] (-) TimerEvent: {}
+[1.738460] (-) TimerEvent: {}
+[1.840075] (-) TimerEvent: {}
+[1.942935] (-) TimerEvent: {}
+[2.045342] (-) TimerEvent: {}
+[2.146173] (-) TimerEvent: {}
+[2.248690] (-) TimerEvent: {}
+[2.352393] (-) TimerEvent: {}
+[2.453965] (-) TimerEvent: {}
+[2.556100] (-) TimerEvent: {}
+[2.658699] (-) TimerEvent: {}
+[2.759425] (-) TimerEvent: {}
+[2.861934] (-) TimerEvent: {}
+[2.965719] (-) TimerEvent: {}
+[3.073609] (-) TimerEvent: {}
+[3.174418] (-) TimerEvent: {}
+[3.277624] (-) TimerEvent: {}
+[3.381481] (-) TimerEvent: {}
+[3.486640] (-) TimerEvent: {}
+[3.591669] (-) TimerEvent: {}
+[3.694665] (-) TimerEvent: {}
+[3.796870] (-) TimerEvent: {}
+[3.901279] (-) TimerEvent: {}
+[4.004197] (-) TimerEvent: {}
+[4.111113] (-) TimerEvent: {}
+[4.216239] (-) TimerEvent: {}
+[4.322977] (-) TimerEvent: {}
+[4.426714] (-) TimerEvent: {}
+[4.530285] (-) TimerEvent: {}
+[4.631177] (-) TimerEvent: {}
+[4.733435] (-) TimerEvent: {}
+[4.835939] (-) TimerEvent: {}
+[4.948727] (-) TimerEvent: {}
+[5.051670] (-) TimerEvent: {}
+[5.157399] (-) TimerEvent: {}
+[5.259850] (-) TimerEvent: {}
+[5.364890] (-) TimerEvent: {}
+[5.469709] (-) TimerEvent: {}
+[5.573682] (-) TimerEvent: {}
+[5.680612] (-) TimerEvent: {}
+[5.784759] (-) TimerEvent: {}
+[5.891065] (-) TimerEvent: {}
+[5.997207] (-) TimerEvent: {}
+[6.104316] (-) TimerEvent: {}
+[6.210264] (-) TimerEvent: {}
+[6.321060] (-) TimerEvent: {}
+[6.428576] (-) TimerEvent: {}
+[6.536043] (-) TimerEvent: {}
+[6.639256] (-) TimerEvent: {}
+[6.742970] (-) TimerEvent: {}
+[6.849691] (-) TimerEvent: {}
+[6.951239] (-) TimerEvent: {}
+[7.058908] (-) TimerEvent: {}
+[7.162506] (-) TimerEvent: {}
+[7.265491] (-) TimerEvent: {}
+[7.370905] (-) TimerEvent: {}
+[7.474892] (-) TimerEvent: {}
+[7.575652] (-) TimerEvent: {}
+[7.676902] (-) TimerEvent: {}
+[7.780688] (-) TimerEvent: {}
+[7.885903] (-) TimerEvent: {}
+[7.986923] (-) TimerEvent: {}
+[8.089612] (-) TimerEvent: {}
+[8.196137] (-) TimerEvent: {}
+[8.297717] (-) TimerEvent: {}
+[8.398591] (-) TimerEvent: {}
+[8.503049] (-) TimerEvent: {}
+[8.605618] (-) TimerEvent: {}
+[8.718098] (-) TimerEvent: {}
+[8.821964] (-) TimerEvent: {}
+[8.927598] (-) TimerEvent: {}
+[9.032289] (-) TimerEvent: {}
+[9.135949] (-) TimerEvent: {}
+[9.241049] (-) TimerEvent: {}
+[9.347701] (-) TimerEvent: {}
+[9.454933] (-) TimerEvent: {}
+[9.557827] (-) TimerEvent: {}
+[9.659686] (-) TimerEvent: {}
+[9.762337] (-) TimerEvent: {}
+[9.868144] (-) TimerEvent: {}
+[9.972617] (-) TimerEvent: {}
+[10.075940] (-) TimerEvent: {}
+[10.183326] (-) TimerEvent: {}
+[10.285219] (-) TimerEvent: {}
+[10.387148] (-) TimerEvent: {}
+[10.490230] (-) TimerEvent: {}
+[10.592832] (-) TimerEvent: {}
+[10.696046] (-) TimerEvent: {}
+[10.798725] (-) TimerEvent: {}
+[10.900224] (-) TimerEvent: {}
+[11.005976] (-) TimerEvent: {}
+[11.114313] (-) TimerEvent: {}
+[11.222251] (-) TimerEvent: {}
+[11.328767] (-) TimerEvent: {}
+[11.436054] (-) TimerEvent: {}
+[11.537191] (-) TimerEvent: {}
+[11.642158] (-) TimerEvent: {}
+[11.664027] (uts) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uts', 'build', '--build-base', '/home/ubuntu/kelompok1/build/uts/build', 'install', '--record', '/home/ubuntu/kelompok1/build/uts/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/kelompok1/src/uts', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/jazzy/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.185.5 37812 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/kelompok1/install:/home/ubuntu/masdika_ws/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'False', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/kelompok1/install/uts:/home/ubuntu/kelompok1/install/delivery_notifier:/home/ubuntu/masdika_ws/install/turtlebot4_pick_place:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/kelompok1/build/uts', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.185.5 37812 192.168.185.3 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/kelompok1/build/uts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages:/home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages:/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/masdika_ws/install/turtlebot4_pick_place:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[11.742695] (-) TimerEvent: {}
+[11.846854] (-) TimerEvent: {}
+[11.948242] (-) TimerEvent: {}
+[11.970716] (delivery_notifier) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/delivery_notifier', 'build', '--build-base', '/home/ubuntu/kelompok1/build/delivery_notifier/build', 'install', '--record', '/home/ubuntu/kelompok1/build/delivery_notifier/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/kelompok1/src/delivery_notifier', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/jazzy/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.185.5 37812 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/kelompok1/install:/home/ubuntu/masdika_ws/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'False', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/kelompok1/install/uts:/home/ubuntu/kelompok1/install/delivery_notifier:/home/ubuntu/masdika_ws/install/turtlebot4_pick_place:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/kelompok1/build/delivery_notifier', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.185.5 37812 192.168.185.3 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/kelompok1/build/delivery_notifier/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages:/home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages:/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/masdika_ws/install/turtlebot4_pick_place:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[12.048414] (-) TimerEvent: {}
+[12.149705] (-) TimerEvent: {}
+[12.254511] (-) TimerEvent: {}
+[12.360932] (-) TimerEvent: {}
+[12.461895] (-) TimerEvent: {}
+[12.569046] (-) TimerEvent: {}
+[12.672909] (-) TimerEvent: {}
+[12.777878] (-) TimerEvent: {}
+[12.885219] (-) TimerEvent: {}
+[12.985972] (-) TimerEvent: {}
+[13.095279] (-) TimerEvent: {}
+[13.196112] (-) TimerEvent: {}
+[13.296962] (-) TimerEvent: {}
+[13.405670] (-) TimerEvent: {}
+[13.512976] (-) TimerEvent: {}
+[13.619944] (-) TimerEvent: {}
+[13.724960] (-) TimerEvent: {}
+[13.825785] (-) TimerEvent: {}
+[13.932793] (-) TimerEvent: {}
+[14.033978] (-) TimerEvent: {}
+[14.134717] (-) TimerEvent: {}
+[14.241715] (-) TimerEvent: {}
+[14.343808] (-) TimerEvent: {}
+[14.446219] (-) TimerEvent: {}
+[14.550712] (-) TimerEvent: {}
+[14.653805] (-) TimerEvent: {}
+[14.757181] (-) TimerEvent: {}
+[14.862787] (-) TimerEvent: {}
+[14.963969] (-) TimerEvent: {}
+[15.064703] (-) TimerEvent: {}
+[15.170681] (-) TimerEvent: {}
+[15.272727] (-) TimerEvent: {}
+[15.377982] (-) TimerEvent: {}
+[15.482433] (-) TimerEvent: {}
+[15.527925] (uts) StdoutLine: {'line': b'running egg_info\n'}
+[15.582879] (-) TimerEvent: {}
+[15.651625] (delivery_notifier) StdoutLine: {'line': b'running egg_info\n'}
+[15.684743] (-) TimerEvent: {}
+[15.787719] (uts) StdoutLine: {'line': b'writing ../../build/uts/uts.egg-info/PKG-INFO\n'}
+[15.792237] (-) TimerEvent: {}
+[15.792867] (uts) StdoutLine: {'line': b'writing dependency_links to ../../build/uts/uts.egg-info/dependency_links.txt\n'}
+[15.796684] (uts) StdoutLine: {'line': b'writing entry points to ../../build/uts/uts.egg-info/entry_points.txt\n'}
+[15.797869] (uts) StdoutLine: {'line': b'writing requirements to ../../build/uts/uts.egg-info/requires.txt\n'}
+[15.798405] (uts) StdoutLine: {'line': b'writing top-level names to ../../build/uts/uts.egg-info/top_level.txt\n'}
+[15.892605] (-) TimerEvent: {}
+[15.919398] (delivery_notifier) StdoutLine: {'line': b'writing ../../build/delivery_notifier/delivery_notifier.egg-info/PKG-INFO\n'}
+[15.922387] (delivery_notifier) StdoutLine: {'line': b'writing dependency_links to ../../build/delivery_notifier/delivery_notifier.egg-info/dependency_links.txt\n'}
+[15.929584] (delivery_notifier) StdoutLine: {'line': b'writing entry points to ../../build/delivery_notifier/delivery_notifier.egg-info/entry_points.txt\n'}
+[15.930291] (delivery_notifier) StdoutLine: {'line': b'writing requirements to ../../build/delivery_notifier/delivery_notifier.egg-info/requires.txt\n'}
+[15.939232] (delivery_notifier) StdoutLine: {'line': b'writing top-level names to ../../build/delivery_notifier/delivery_notifier.egg-info/top_level.txt\n'}
+[15.993953] (-) TimerEvent: {}
+[16.097673] (-) TimerEvent: {}
+[16.198814] (-) TimerEvent: {}
+[16.304628] (-) TimerEvent: {}
+[16.403730] (uts) StdoutLine: {'line': b"reading manifest file '../../build/uts/uts.egg-info/SOURCES.txt'\n"}
+[16.406912] (-) TimerEvent: {}
+[16.411812] (uts) StdoutLine: {'line': b"writing manifest file '../../build/uts/uts.egg-info/SOURCES.txt'\n"}
+[16.418791] (uts) StdoutLine: {'line': b'running build\n'}
+[16.421927] (uts) StdoutLine: {'line': b'running build_py\n'}
+[16.422489] (uts) StdoutLine: {'line': b'copying uts/uts.py -> /home/ubuntu/kelompok1/build/uts/build/lib/uts\n'}
+[16.427853] (uts) StdoutLine: {'line': b'running install\n'}
+[16.481449] (uts) StdoutLine: {'line': b'running install_lib\n'}
+[16.498634] (delivery_notifier) StdoutLine: {'line': b"reading manifest file '../../build/delivery_notifier/delivery_notifier.egg-info/SOURCES.txt'\n"}
+[16.510078] (-) TimerEvent: {}
+[16.512195] (delivery_notifier) StdoutLine: {'line': b"writing manifest file '../../build/delivery_notifier/delivery_notifier.egg-info/SOURCES.txt'\n"}
+[16.516204] (delivery_notifier) StdoutLine: {'line': b'running build\n'}
+[16.520674] (delivery_notifier) StdoutLine: {'line': b'running build_py\n'}
+[16.523946] (delivery_notifier) StdoutLine: {'line': b'running install\n'}
+[16.583840] (delivery_notifier) StdoutLine: {'line': b'running install_lib\n'}
+[16.610572] (-) TimerEvent: {}
+[16.713176] (-) TimerEvent: {}
+[16.763357] (uts) StdoutLine: {'line': b'copying /home/ubuntu/kelompok1/build/uts/build/lib/uts/uts.py -> /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts\n'}
+[16.770957] (uts) StdoutLine: {'line': b'byte-compiling /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts/uts.py to uts.cpython-312.pyc\n'}
+[16.774588] (uts) StderrLine: {'line': b'  File "/home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts/uts.py", line 69\n'}
+[16.775439] (uts) StderrLine: {'line': b'    navigator.startToPose(bjirrr))\n'}
+[16.776091] (uts) StderrLine: {'line': b'                                 ^\n'}
+[16.781363] (uts) StderrLine: {'line': b"SyntaxError: unmatched ')'\n"}
+[16.782130] (uts) StderrLine: {'line': b'\n'}
+[16.788192] (uts) StdoutLine: {'line': b'running install_data\n'}
+[16.789102] (uts) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.813673] (-) TimerEvent: {}
+[16.902354] (delivery_notifier) StdoutLine: {'line': b'running install_data\n'}
+[16.906001] (delivery_notifier) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.914888] (-) TimerEvent: {}
+[17.020483] (-) TimerEvent: {}
+[17.077744] (uts) StdoutLine: {'line': b"removing '/home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[17.080048] (uts) StdoutLine: {'line': b'Copying ../../build/uts/uts.egg-info to /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts-0.0.0-py3.12.egg-info\n'}
+[17.094102] (uts) StdoutLine: {'line': b'running install_scripts\n'}
+[17.121009] (-) TimerEvent: {}
+[17.227165] (delivery_notifier) StdoutLine: {'line': b"removing '/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[17.227888] (-) TimerEvent: {}
+[17.228333] (delivery_notifier) StdoutLine: {'line': b'Copying ../../build/delivery_notifier/delivery_notifier.egg-info to /home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier-0.0.0-py3.12.egg-info\n'}
+[17.242704] (delivery_notifier) StdoutLine: {'line': b'running install_scripts\n'}
+[17.333040] (-) TimerEvent: {}
+[17.433777] (-) TimerEvent: {}
+[17.535134] (-) TimerEvent: {}
+[17.639429] (-) TimerEvent: {}
+[17.742397] (-) TimerEvent: {}
+[17.844137] (-) TimerEvent: {}
+[17.956182] (-) TimerEvent: {}
+[18.057603] (-) TimerEvent: {}
+[18.159460] (-) TimerEvent: {}
+[18.264951] (-) TimerEvent: {}
+[18.376949] (-) TimerEvent: {}
+[18.478303] (-) TimerEvent: {}
+[18.584297] (-) TimerEvent: {}
+[18.693396] (-) TimerEvent: {}
+[18.803706] (-) TimerEvent: {}
+[18.904943] (-) TimerEvent: {}
+[19.009483] (-) TimerEvent: {}
+[19.064879] (uts) StdoutLine: {'line': b'Installing uts script to /home/ubuntu/kelompok1/install/uts/lib/uts\n'}
+[19.068870] (uts) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/kelompok1/build/uts/install.log'\n"}
+[19.113720] (-) TimerEvent: {}
+[19.221428] (-) TimerEvent: {}
+[19.326372] (-) TimerEvent: {}
+[19.348894] (delivery_notifier) StdoutLine: {'line': b'Installing delivery_notifier script to /home/ubuntu/kelompok1/install/delivery_notifier/lib/delivery_notifier\n'}
+[19.353628] (delivery_notifier) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/kelompok1/build/delivery_notifier/install.log'\n"}
+[19.426662] (-) TimerEvent: {}
+[19.530608] (-) TimerEvent: {}
+[19.586248] (uts) CommandEnded: {'returncode': 0}
+[19.639258] (-) TimerEvent: {}
+[19.732963] (uts) JobEnded: {'identifier': 'uts', 'rc': 0}
+[19.741247] (-) TimerEvent: {}
+[19.744115] (delivery_notifier) CommandEnded: {'returncode': 0}
+[19.789386] (delivery_notifier) JobEnded: {'identifier': 'delivery_notifier', 'rc': 0}
+[19.796491] (-) EventReactorShutdown: {}

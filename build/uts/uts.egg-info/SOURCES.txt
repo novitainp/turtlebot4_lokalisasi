@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/uts/uts.egg-info/PKG-INFO
+../../build/uts/uts.egg-info/SOURCES.txt
+../../build/uts/uts.egg-info/dependency_links.txt
+../../build/uts/uts.egg-info/entry_points.txt
+../../build/uts/uts.egg-info/requires.txt
+../../build/uts/uts.egg-info/top_level.txt
+../../build/uts/uts.egg-info/zip-safe
+resource/uts
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+uts/__init__.py
+uts/uts-1.py
+uts/uts.py

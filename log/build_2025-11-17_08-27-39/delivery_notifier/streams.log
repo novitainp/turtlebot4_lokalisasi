@@ -1,0 +1,21 @@
+[6.515s] Invoking command in '/home/ubuntu/kelompok1/src/delivery_notifier': PYTHONPATH=/home/ubuntu/kelompok1/build/delivery_notifier/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/delivery_notifier build --build-base /home/ubuntu/kelompok1/build/delivery_notifier/build install --record /home/ubuntu/kelompok1/build/delivery_notifier/install.log --single-version-externally-managed install_data
+[8.247s] running egg_info
+[8.382s] writing ../../build/delivery_notifier/delivery_notifier.egg-info/PKG-INFO
+[8.385s] writing dependency_links to ../../build/delivery_notifier/delivery_notifier.egg-info/dependency_links.txt
+[8.390s] writing entry points to ../../build/delivery_notifier/delivery_notifier.egg-info/entry_points.txt
+[8.391s] writing requirements to ../../build/delivery_notifier/delivery_notifier.egg-info/requires.txt
+[8.393s] writing top-level names to ../../build/delivery_notifier/delivery_notifier.egg-info/top_level.txt
+[8.647s] reading manifest file '../../build/delivery_notifier/delivery_notifier.egg-info/SOURCES.txt'
+[8.659s] writing manifest file '../../build/delivery_notifier/delivery_notifier.egg-info/SOURCES.txt'
+[8.660s] running build
+[8.660s] running build_py
+[8.661s] running install
+[8.687s] running install_lib
+[8.829s] running install_data
+[8.831s] running install_egg_info
+[8.963s] removing '/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier-0.0.0-py3.12.egg-info' (and everything under it)
+[8.966s] Copying ../../build/delivery_notifier/delivery_notifier.egg-info to /home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages/delivery_notifier-0.0.0-py3.12.egg-info
+[8.973s] running install_scripts
+[9.893s] Installing delivery_notifier script to /home/ubuntu/kelompok1/install/delivery_notifier/lib/delivery_notifier
+[9.894s] writing list of installed files to '/home/ubuntu/kelompok1/build/delivery_notifier/install.log'
+[10.157s] Invoked command in '/home/ubuntu/kelompok1/src/delivery_notifier' returned '0': PYTHONPATH=/home/ubuntu/kelompok1/build/delivery_notifier/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/kelompok1/install/delivery_notifier/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/delivery_notifier build --build-base /home/ubuntu/kelompok1/build/delivery_notifier/build install --record /home/ubuntu/kelompok1/build/delivery_notifier/install.log --single-version-externally-managed install_data

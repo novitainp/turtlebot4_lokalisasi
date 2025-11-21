@@ -1,0 +1,5 @@
+  File "/home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts/uts.py", line 69
+    navigator.startToPose(bjirrr))
+                                 ^
+SyntaxError: unmatched ')'
+

@@ -1,0 +1,24 @@
+[9.910s] Invoking command in '/home/ubuntu/kelompok1/src/uts': PYTHONPATH=/home/ubuntu/kelompok1/build/uts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uts build --build-base /home/ubuntu/kelompok1/build/uts/build install --record /home/ubuntu/kelompok1/build/uts/install.log --single-version-externally-managed install_data
+[12.949s] running egg_info
+[13.227s] writing ../../build/uts/uts.egg-info/PKG-INFO
+[13.228s] writing dependency_links to ../../build/uts/uts.egg-info/dependency_links.txt
+[13.228s] writing entry points to ../../build/uts/uts.egg-info/entry_points.txt
+[13.229s] writing requirements to ../../build/uts/uts.egg-info/requires.txt
+[13.229s] writing top-level names to ../../build/uts/uts.egg-info/top_level.txt
+[13.717s] reading manifest file '../../build/uts/uts.egg-info/SOURCES.txt'
+[13.722s] writing manifest file '../../build/uts/uts.egg-info/SOURCES.txt'
+[13.723s] running build
+[13.724s] running build_py
+[13.727s] copying uts/uts.py -> /home/ubuntu/kelompok1/build/uts/build/lib/uts
+[13.728s] running install
+[13.780s] running install_lib
+[14.062s] copying /home/ubuntu/kelompok1/build/uts/build/lib/uts/uts.py -> /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts
+[14.074s] byte-compiling /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts/uts.py to uts.cpython-312.pyc
+[14.078s] running install_data
+[14.079s] running install_egg_info
+[14.368s] removing '/home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts-0.0.0-py3.12.egg-info' (and everything under it)
+[14.375s] Copying ../../build/uts/uts.egg-info to /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts-0.0.0-py3.12.egg-info
+[14.388s] running install_scripts
+[16.127s] Installing uts script to /home/ubuntu/kelompok1/install/uts/lib/uts
+[16.131s] writing list of installed files to '/home/ubuntu/kelompok1/build/uts/install.log'
+[16.384s] Invoked command in '/home/ubuntu/kelompok1/src/uts' returned '0': PYTHONPATH=/home/ubuntu/kelompok1/build/uts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uts build --build-base /home/ubuntu/kelompok1/build/uts/build install --record /home/ubuntu/kelompok1/build/uts/install.log --single-version-externally-managed install_data

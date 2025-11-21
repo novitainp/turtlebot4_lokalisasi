@@ -1,0 +1,2 @@
+[console_scripts]
+delivery_notifier = delivery_notifier.delivery_notifier:main

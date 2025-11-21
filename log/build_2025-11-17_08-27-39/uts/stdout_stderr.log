@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/uts/uts.egg-info
+writing ../../build/uts/uts.egg-info/PKG-INFO
+writing dependency_links to ../../build/uts/uts.egg-info/dependency_links.txt
+writing entry points to ../../build/uts/uts.egg-info/entry_points.txt
+writing requirements to ../../build/uts/uts.egg-info/requires.txt
+writing top-level names to ../../build/uts/uts.egg-info/top_level.txt
+writing manifest file '../../build/uts/uts.egg-info/SOURCES.txt'
+reading manifest file '../../build/uts/uts.egg-info/SOURCES.txt'
+writing manifest file '../../build/uts/uts.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/kelompok1/build/uts/build
+creating /home/ubuntu/kelompok1/build/uts/build/lib
+creating /home/ubuntu/kelompok1/build/uts/build/lib/uts
+copying uts/uts.py -> /home/ubuntu/kelompok1/build/uts/build/lib/uts
+copying uts/__init__.py -> /home/ubuntu/kelompok1/build/uts/build/lib/uts
+running install
+running install_lib
+creating /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts
+copying /home/ubuntu/kelompok1/build/uts/build/lib/uts/uts.py -> /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts
+copying /home/ubuntu/kelompok1/build/uts/build/lib/uts/__init__.py -> /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts
+byte-compiling /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts/uts.py to uts.cpython-312.pyc
+byte-compiling /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ubuntu/kelompok1/install/uts/share/ament_index
+creating /home/ubuntu/kelompok1/install/uts/share/ament_index/resource_index
+creating /home/ubuntu/kelompok1/install/uts/share/ament_index/resource_index/packages
+copying resource/uts -> /home/ubuntu/kelompok1/install/uts/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/kelompok1/install/uts/share/uts
+running install_egg_info
+Copying ../../build/uts/uts.egg-info to /home/ubuntu/kelompok1/install/uts/lib/python3.12/site-packages/uts-0.0.0-py3.12.egg-info
+running install_scripts
+Installing uts script to /home/ubuntu/kelompok1/install/uts/lib/uts
+writing list of installed files to '/home/ubuntu/kelompok1/build/uts/install.log'
