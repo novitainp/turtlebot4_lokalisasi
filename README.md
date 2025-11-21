@@ -1,4 +1,4 @@
-🐢 TurtleBot4 Navigation — Point A to Point B
+# 🐢TurtleBot4 Navigation — Point A to Point B
 
 Proyek ini merupakan tugas UTS Matakuliah RE702 — Lokalisasi dan Pemetaan.
 Tujuan dari proyek ini adalah membuat TurtleBot4 bergerak secara otonom dari Point A di area GU Lantai 2 menuju Point B di Lab BRAIL menggunakan navigation stack (Nav2).
@@ -6,7 +6,6 @@ Tujuan dari proyek ini adalah membuat TurtleBot4 bergerak secara otonom dari Poi
 📍 Aksi robot:
 
 Sampai Point A → buzzer bunyi 1x
-
 Sampai Point B → buzzer bunyi 2x
 
 Proyek ini menggunakan ROS2 (Humble/Jazzy), Nav2, SLAM, dan RViz sebagai visualisasi.
